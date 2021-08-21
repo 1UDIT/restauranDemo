@@ -1,0 +1,237 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Navbar */
+
+.navbar-brand  {
+  font-size:19px !important;
+   font-weight: bold;
+  color: rgba(2, 2, 2, 0.301) !important;
+}
+.nav-link  {
+   font-size: 15px !important;  
+   font-weight: lighter;
+  position: relative;
+}
+.nav-link:hover  {
+  color: rgb(248, 47, 47) !important;
+  font-weight: lighter;
+  position: relative;
+  text-shadow: 0 0.2rem 0.3rem rgba(183, 171, 255, 0.5);
+}
+.activeMenu{
+  color: rgb(255, 60, 0) !important;
+  text-shadow: 0 0.2rem 0.3rem rgba(183, 171, 255, 0.5);
+}
+
+/* Image Home Page */
+.imgHome{
+align-items: center;
+/* padding:50px 0px 50px 190px !important; */
+background-color: rgb(255, 255, 255) !important;
+}
+/* MenutextInfo */
+.textHome{
+  text-align: center;
+  color: #1C2C59;
+  margin: 0 auto 40px;
+}
+.textHome1{
+  text-align: center;
+  color: #717681;
+  
+}
+
+.textHomeMark{
+    color: #1C2C59 !important;
+    text-align: center;
+}
+/* MenuInfoStart */
+.textHome ::before{
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  position: absolute;
+  background-image: url(../src/Image/diamond.png);
+  background-size: contain;
+    background-repeat: no-repeat;
+    top: 525px;
+    left: 500px;
+    z-index: 999;
+}
+.textHomeMark ::before{
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  position: absolute;
+  background-image: url(../src/Image/diamond.png);
+  background-size: contain;
+    background-repeat: no-repeat;
+    top: 525px;
+    left: 900px;
+    z-index: 999;
+}
+
+@media screen and (max-width: 768px)
+ {
+  .textHome ::before {  
+    margin: 0 auto 26px;
+    display: block;
+    position: relative;
+    width: 18px;
+    height: 17px;
+    left: 5px;
+    top: 79px;
+    transform: none;
+    background-position: center;
+  }
+  .textHomeMark ::before {
+    margin: 0 auto 26px;
+    display: block;
+    position: relative;
+    width: 18px;
+    left: 5px;
+    top: 9px;
+    height: 17px;
+    transform: none;
+    background-position: center;
+  }
+}
+/* AboutMenuContainer */
+.MenuImage{
+background-image: url(../src/Image/menuImage.jfif);
+width: 100%;
+height: 450px;
+background-size: cover;
+}
+.cornerRound{
+  border-style: double;
+  border-color: #1C2C59;
+  border-radius: 6%;
+}
+
+.containerColor{
+  text-transform:uppercase; 
+  color: #87aeab;
+ 
+}
+
+.polycorner{
+  clip-path: polygon(20px 0, calc(100% - 20px) 0, 
+  100% 20px, 100% calc(100% - 20px), 
+  calc(100% - 20px) 100%, 20px 100%, 
+  0 calc(100% - 20px), 0 20px);
+    background-color:#1C2C59 ;
+    text-align: center;
+    margin: 10px 45px 10px 0px;
+    height: 110px;
+    padding: 20px 0px 0px 0px;
+    
+    
+}
+.MenuImage2{
+  background-image: url(../src/Image/menuImage2.jfif);
+  width: 100%;
+  height: 450px;
+  background-size: cover;
+  }
+
+  /* parallax */
+  .parallax{
+    background-image: url(../src/Image/parallax.jfif);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 500px;
+  }
+  .textcolorBlue{
+    color:#1C2C59 !important;
+  } 
+  .textcolorWhite{
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1C2C59;
+    text-decoration: underline;
+  }
+  .textcolorWhite:hover{
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #293964;
+  }
+  p img{
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+  }
+
+  /* reviewImg */
+  .reviewImg {
+    background-size:cover;     
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 350px;
+    padding-top: 1%;
+        background-image: url(../src/Image/review.jpg);
+  }
+  
+  .ImageRadius{
+    clip-path: polygon(40px 0, calc(100% - 40px) 0, 100% 40px, 100% calc(100% - 40px),
+     calc(100% - 40px) 100%, 40px 100%, 0 calc(100% - 40px), 0 40px);
+  }
+  .reviewImg:hover{
+    transform: scale(1.1, 1.1);   
+  }
+ /* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .reviewImg {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+/* ContactForm */
+.ContactForm{
+   background-color: rgb(230, 233, 233) !important;
+   width: 490px !important;
+
+}
+.ContactForm input[type=text]{
+  width: 100%;
+  height: 30px auto;
+}
+.ContactForm textarea[type=text]{
+  width: 100%;
+  height: 30px auto;
+}
+.ContactForm label{
+   display: block;
+   text-align: center;
+   padding-bottom: 10px;
+   padding-top: 10px;
+}
+.ContactForm input[type=submit]{
+  width: 50%;  
+  height:  30px auto;
+ 
+}
+.buttonCenter{
+  text-align:center;
+  display:block;
+  padding-bottom: 10px;;
+}
