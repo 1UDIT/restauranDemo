@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/restauranDemo/static/css/main.406b2e4e.chunk.css",
+    "main.js": "/restauranDemo/static/js/main.24cd5be6.chunk.js",
+    "main.js.map": "/restauranDemo/static/js/main.24cd5be6.chunk.js.map",
+    "runtime-main.js": "/restauranDemo/static/js/runtime-main.a6addd97.js",
+    "runtime-main.js.map": "/restauranDemo/static/js/runtime-main.a6addd97.js.map",
+    "static/css/2.983f79de.chunk.css": "/restauranDemo/static/css/2.983f79de.chunk.css",
+    "static/js/2.55190c80.chunk.js": "/restauranDemo/static/js/2.55190c80.chunk.js",
+    "static/js/2.55190c80.chunk.js.map": "/restauranDemo/static/js/2.55190c80.chunk.js.map",
+    "index.html": "/restauranDemo/index.html",
+    "static/css/2.983f79de.chunk.css.map": "/restauranDemo/static/css/2.983f79de.chunk.css.map",
+    "static/css/main.406b2e4e.chunk.css.map": "/restauranDemo/static/css/main.406b2e4e.chunk.css.map",
+    "static/js/2.55190c80.chunk.js.LICENSE.txt": "/restauranDemo/static/js/2.55190c80.chunk.js.LICENSE.txt",
+    "static/media/Logo.ec404ffb.png": "/restauranDemo/static/media/Logo.ec404ffb.png",
+    "static/media/Logo1.bc4bf498.png": "/restauranDemo/static/media/Logo1.bc4bf498.png",
+    "static/media/index.css": "/restauranDemo/static/media/review.59993217.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a6addd97.js",
+    "static/css/2.983f79de.chunk.css",
+    "static/js/2.55190c80.chunk.js",
+    "static/css/main.406b2e4e.chunk.css",
+    "static/js/main.24cd5be6.chunk.js"
+  ]
+}
