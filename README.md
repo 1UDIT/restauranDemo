@@ -1,5 +1,5 @@
 #Live perview
-https://u121.github.io/restauranDemo/#/
+https://1udit.github.io/restauranDemo/#/
 
 # Getting Started with Create React App
 
